@@ -1,18 +1,46 @@
+# Dependencies
 node_modules/
+.npm
+
+# Build outputs
 .next/
-*.pyc
-__pycache__/
-.env
-*.egg-info/
 dist/
 build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# Testing
 .pytest_cache/
 .coverage
 htmlcov/
 test.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
 .DS_Store
-*.logvenv/
-frontend/node_modules/
-frontend/.next/
-*.pyc
-__pycache__/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
